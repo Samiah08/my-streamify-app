@@ -1,10 +1,20 @@
 .App {
   text-align: center;
+  background-color: #141414;
+  color: white;
 }
+
+.app-body {
+  text-align: center;
+  background-color: #141414;
+  color: white;
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  font-size: xx-large;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,7 +42,84 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.body {
+  background: #141414;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150vh;
+}
+
+.Header {
+  background-color: #141414;
+  color: white;
+  margin: auto;
+  width: 100%;
+  border: 3px solid black;
+  padding: 40px;
+}
+
+.Header h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-align: center;
+
+}
+
+.Footer {
+  background-color: #141414;
+  color: white;
+  margin: auto;
+  width: 100%;
+  border: 3px solid black;
+  padding: 15px;
+  font-style: italic;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+
+}
+
+.horizontal-card {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 10px;
+  height: max-content;
+  background-color: #141414;
+}
+
+
+
+.card-body{
+  background-color: #282c34;
+}
+
+.Search-bar {
+  background-color: #141414;
+  color: white;
+  margin: auto;
+  width: 100%;
+  border: 3px solid black;
+  padding: 40px;
+  text-align: center;
+}
+
+.Search-Input-Text {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(27, 27, 27);
+  border-radius:10px;
+  border-color: white;
+  color: white;
+  margin-right: 10px;
+  font-family:Arial, Helvetica, sans-serif;
 }
