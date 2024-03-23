@@ -31,22 +31,17 @@ const MovieApp = () => {
     }
   };
 
-
   return (
-
-            <div>
-       <div className="Search-bar"> 
-       <SearchBar onSearch={fetchMovies} />
-        </div> 
-
-        {loading && <p>Loading Movies......</p>}
-        {error && <p>{error}</p>}
-<br></br>
-<br></br>
-            <MovieList movies={movies}/>
-
+    <div>
+      <div className="Search-bar">
+        <SearchBar onSearch={fetchMovies} />
       </div>
-
+      <div className="loading-message">{loading && <p>Loading Movies......</p>}</div>
+      <div className="Error-message">{error && <p>{error}</p>}</div>
+      <br></br>
+      <br></br>
+      <MovieList movies={movies} />
+    </div>
   );
 };
 
