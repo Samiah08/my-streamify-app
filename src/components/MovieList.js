@@ -1,6 +1,5 @@
 import MovieItem from "./MovieItem";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
 
 const MovieList = ({movies}) => {
   return(
