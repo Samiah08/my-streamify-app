@@ -5,7 +5,6 @@ import MovieList from "./MovieList";
 
 const MovieApp = () => {
   const [loading, setLoading] = useState(false);
-  const [favourites, setFavourites] = useState([]);
   const [error, setError] = useState(false);
   const [movies, setMovies] = useState([]);
 
@@ -32,10 +31,6 @@ const MovieApp = () => {
     }
   };
 
-  const addFavouriteMovie =(movie) =>{
-    const newfavouriteList = [...favourites, movie];
-    setFavourites(newfavouriteList);
-  }
 
   return (
 
@@ -48,8 +43,7 @@ const MovieApp = () => {
         {error && <p>{error}</p>}
 <br></br>
 <br></br>
-            <MovieList movies={movies} 	handleFavouritesClick={addFavouriteMovie}
-            />
+            <MovieList movies={movies}/>
 
       </div>
 
