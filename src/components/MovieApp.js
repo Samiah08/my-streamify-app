@@ -25,7 +25,7 @@ const MovieApp = () => {
         setError(response.data.Error);
       }
     } catch (error) {
-      setError("An Error Occured While Fetching the Data", error);
+      setError("An Error Occurred While Fetching the Data", error);
     } finally {
       setLoading(false);
     }
