@@ -61,7 +61,6 @@
   color: white;
   margin: auto;
   width: 100%;
-  border: 3px solid black;
   padding: 40px;
 }
 
@@ -78,7 +77,6 @@
   color: white;
   margin: auto;
   width: 100%;
-  border: 3px solid black;
   padding: 15px;
   font-style: italic;
   text-align: right;
@@ -107,7 +105,6 @@
   color: white;
   margin: auto;
   width: 100%;
-  border: 3px solid black;
   padding: 40px;
   text-align: center;
 }
